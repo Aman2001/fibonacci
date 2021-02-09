@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-	int x,x1=0,x2=1,x3;
+	int x,num1=0,num2=1,num3;
 	cout<<" Enter the number of terms you want to display of fibonnaci series \n";
 	cin>>x;
 	cout<<" The required Fibonnaci series with "<<x<<" terms is : \n";
@@ -11,17 +11,17 @@ int main()
 	{
 		if(x==1)
 		{
-			cout<<x1;
+			cout<<num1;
 		}
 	    if (x==2)
 		{
-			cout<<x1<<" "<<x2;
+			cout<<num1<<" "<<num2;
 		}
 	    
-	    x3 = x1 + x2;
-	    x1 = x2;
-	    x2 = x3;
-	    cout<<x3<<" ";
+	    num3 = num1 + num2;
+	    num1 = num2;
+	    num2 = num3;
+	    cout<<num3<<" ";
 		
 	}
 	return 0;
